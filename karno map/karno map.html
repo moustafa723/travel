@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Karnaugh Map Calculator</title>
+	<link rel="stylesheet" href="karno map.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Karnaugh Map Calculator</h1>
+		<div class="form">
+			<label for="expression">Enter Boolean expression:</label>
+			<input type="text" id="expression" placeholder="e.g. A'B + AB'">
+			<button id="calculate-btn" onclick="calculate()">Calculate</button>
+		</div>
+		<div id="k-map" class="hidden"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

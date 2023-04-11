@@ -1,0 +1,470 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+.ui{
+    background-color: #6d6f86;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(222, 218, 217, 0.884);
+}
+
+.ui nav {
+    display: flex;
+    list-style:none;
+    width: 60;
+    height: 30;
+    
+}
+
+.ui li {
+    margin-right: 2rem;
+    width: 50;
+    height: 50;
+}
+
+.ui a {
+    color: #b9b0b0;
+    text-decoration: none;
+}
+
+.ui a:hover {
+    color: #93d30a;
+}
+.ui nav i {
+    color: #0b0bc4;
+    text-decoration: none;
+}
+.ui .insta i {
+    color: #c40b55;
+    text-decoration: none;
+
+}
+.ui .tiktok i {
+    color: #141112;
+    text-decoration: none;
+
+}
+
+.ui i:hover {
+    color: #e6d9d9;
+}
+
+.ui  .moip i{
+
+    display: flex;
+    float:left;
+    color: #000;
+    margin-left: auto;
+}
+.ui .koi i{
+    color: #f74545;
+    margin-left: auto;
+}
+
+header {
+    background-color: #0f1412;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(222, 218, 217, 0.884);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li:not(:last-child) {
+    margin-right: 2rem;
+}
+
+nav a {
+    color: #b9b0b0;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #d30a0a;
+}
+nav i {
+    color: #1fc787;
+    text-decoration: none;
+}
+
+nav i:hover {
+    color: #d30a0a;
+}
+
+header h1 {
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    color: #f2f2f2;
+}
+
+
+
+
+.hero {
+    background-image: url('https://www.almaal.org/wp-content/uploads/2019/11/%D8%A3%D9%81%D8%B6%D9%84-%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-2020.jpg');
+
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1f031a;
+    text-align: center;
+    background-color: #0f1412;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.2s ease;
+}
+
+.cta:hover {
+    background-color: #2d2a28;
+}
+.heroa:hover{
+    color: #000;
+}
+
+.features {
+    background-color: #ec1fe2;
+    padding: 2rem;
+}
+
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.grid-item p {
+    margin-bottom: 2rem;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.destinations {
+    padding: 2rem;
+    background-color: #5c2159;
+}
+
+.destinations h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.destinations .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+}
+
+.destinations .grid-item {
+    position: relative;
+}
+
+.destinations .grid-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.destinations .grid-item p {
+    margin-bottom: 2rem;
+    color: #0b0bc4;
+}
+
+.destinations .grid-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.destinations .cta {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #f39c12;
+    color: #d61b95;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 100;
+}
+.destinations a:hover
+{
+color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.destinations1 {
+    padding: 2rem;
+    background-color: #774575;
+}
+
+.destinations1 h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.destinations1 .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+}
+
+.destinations1 .grid-item {
+    position: relative;
+}
+
+.destinations1 .grid-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.destinations1 .grid-item p {
+    margin-bottom: 2rem;
+    color: #7a7ab2;
+}
+
+.destinations1 .grid-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.destinations1 .cta {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #f39c12;
+    color: #d61b95;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 100;
+}
+.destinations1 a:hover
+{
+color: #000;
+}
+
+
+
+
+
+.destinations2 {
+    padding: 2rem;
+    background-color: #ae6dab;
+}
+
+.destinations2 h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.destinations2 .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+}
+
+.destinations2 .grid-item {
+    position: relative;
+}
+
+.destinations2 .grid-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.destinations2 .grid-item p {
+    margin-bottom: 2rem;
+    color: #0b0bc4;
+}
+
+.destinations2 .grid-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.destinations2 .cta {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #2b1f0b;
+    color: #dac1d1;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 100;
+}
+.destinations2 a:hover
+{
+color: #26acea;
+}
+
+
+
+
+
+
+
+.destinations3 {
+    padding: 2rem;
+    background-color: #0d768e;
+}
+
+.destinations3 h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.destinations3 .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+}
+
+.destinations3 .grid-item {
+    position: relative;
+}
+
+.destinations3 .grid-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.destinations3 .grid-item p {
+    margin-bottom: 2rem;
+    color: #0b0bc4;
+}
+
+.destinations3 .grid-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.destinations3 .cta {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #f39c12;
+    color: #d61b95;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 100;
+}
+.destinations3 a:hover
+{
+color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer ul
+{display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(222, 218, 217, 0.884);
+   background-color: #1d1919; 
+}
+footer li
+{
+    margin-right: 2rem;
+    width: 50;
+    height: 50;
+    
+}
+footer p{
+    background-color: #2e849e;
+    text-align: center;
+}
